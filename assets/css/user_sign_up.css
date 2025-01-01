@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    background-image: url(../img/clock.jpg);
+    background-repeat: no-repeat;
+    background-size: 110vh 105vh;
+    background-color: #f7fafc; /* Soft neutral background for balance */
+}
+
+.signup {
+    margin-left: 60%;
+    margin-right: 50px;
+    margin-top: 5%;
+    height: 480px;
+    background-color: #dff5f9; /* Light cyan for a refreshing look */
+    border-radius: 10%;
+    text-align: center;
+    padding: 2%;
+    box-shadow: 0px 5px 10px 0px rgba(0, 123, 255, 0.4); /* Blue-tinted shadow for elegance */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 60%;
+    height: 20px;
+    display: flex;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border for consistency */
+    outline: none;
+    border-radius: 5px;
+    background-color: #ffffff; /* Clean white background */
+}
+
+input:focus {
+    border-color: #1e90ff; /* Blue focus border for emphasis */
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5); /* Subtle blue glow */
+}
+
+button {
+    width: 60%;
+    height: 40px;
+    margin: 10px auto;
+    color: #ffffff; /* White text for contrast */
+    background-color: #20c997; /* Vibrant green-blue for buttons */
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover,
+button:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em #20c997; /* Glow effect on hover */
+    transform: translateY(-0.25em);
+    background-color: #17a589; /* Darker green-blue for hover effect */
+}
