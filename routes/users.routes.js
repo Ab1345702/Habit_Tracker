@@ -18,7 +18,7 @@ router.post('/create-session', passport.authenticate(
 // used for deleting the user session
 router.get('/sign-out', usersController.destroySession);
 
-router.use('/habit', require('./habit'));
+router.use('/habit', require('./habit.routes'));
 
 // takes to forget password page
 router.get('/forget-password', usersController.forgetPassword);

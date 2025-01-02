@@ -8,7 +8,7 @@ console.log('In router');
 router.get('/', homeController.home);
 
 
-router.use('/users', require('./users'));
+router.use('/users', require('./users.routes'));
 router.use( homeController.notFound)
 
 module.exports = router;

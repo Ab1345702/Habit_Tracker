@@ -46,7 +46,7 @@ app.use(flash());
 app.use(flashMiddleware.setFlash);
 
 // use express router
-app.use('/', require('./routes'));
+app.use('/', require('./routes/index.routes'));
 
 // directing the app in the given port
 app.listen(port, function(err) {

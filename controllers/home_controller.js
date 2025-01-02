@@ -1,6 +1,6 @@
 // const Post = require('../models/post');
-const User = require('../models/user');
-const Habit = require('../models/habit');
+const User = require('../models/user.model');
+const Habit = require('../models/habit.model');
 
 
 // this function takes user to home
