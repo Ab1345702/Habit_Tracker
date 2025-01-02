@@ -53,9 +53,9 @@ Habit Tracker
     |--->controllers-->|-->home_controller.js
     |                  |-->user_controller.js
     |
-    |               |-->habit.js
+    |               |-->habit.model.js
     |--->models---->|
-    |               |-->user.js
+    |               |-->user.model.js
     |
     |              
     |               |-->habit.js
