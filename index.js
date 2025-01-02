@@ -25,7 +25,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(express.static('./assets')); 
 
-//mongo store is used to store the session cookie
+//setting up session
 app.use(session({
     name: 'habitTracker',
     secret: "12345",
