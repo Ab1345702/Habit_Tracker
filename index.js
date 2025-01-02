@@ -37,16 +37,7 @@ app.use(session({
     resave: false,
     cookie: {
         maxAge: (1000 * 60 * 100)
-    },
-    store: MongoStore.create(
-        {
-            mongoUrl:'mongodb+srv://himadrinayak:12345@cluster0.h7n86ah.mongodb.net/habit-tracker?retryWrites=true&w=majority',
-            autoRemover : 'disabled'
-        },
-        function(err){
-            console.log("Error in the mongo-store");
-        }
-    ),
+    }
 }));
 
 // Using passport
