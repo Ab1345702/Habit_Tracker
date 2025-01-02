@@ -58,9 +58,9 @@ Habit Tracker
     |               |-->user.model.js
     |
     |              
-    |               |-->habit.js
-    |--->routes---->|-->index.js
-    |               |-->user.js
+    |               |-->habit.routes.js
+    |--->routes---->|-->index.routes.js
+    |               |-->user.routes.js
     |
     |              
     |              |--->_header.ejs
