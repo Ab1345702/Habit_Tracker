@@ -16,7 +16,6 @@ const session = require("express-session");
 const passport = require('passport');
 const passportLocal = require('./config/passport_local');
 
-// const MongoStore = require('connect-mongo');
 // layouts for ejs
 app.use(expressLayouts);
 app.use(bodyParser.urlencoded({extended:false}));
